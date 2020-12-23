@@ -13,14 +13,14 @@ vector<int>v;
 bool check;
 int find(int x) {
 	if (parent[x] == x)return x;
-	else return x= find(parent[x]);
+	else return parent[x]= find(parent[x]);
 }
 void Union(int x, int y) {
 	int a = find(x);
 	int b = find(y);
 	if (a == b)return;
 	if (a > b)swap(a, b);
-	else parent[b] = a;
+	 parent[b] = a;
 	return;
 }
 int main() {
