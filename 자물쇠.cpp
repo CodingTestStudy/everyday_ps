@@ -29,6 +29,8 @@ bool search(vector<pair<int, int>>& x) {// 자물쇠랑 키랑 비교
 bool bfs(vector<pair<int, int>>& a) {
     queue <vector<pair<int, int>>>q;
     q.push(a);
+    string T = "";
+    T.append(a.begin(), a.end());
     while (!q.empty()) {
         vector<pair<int,int>>x = q.front();
         q.pop();
@@ -47,7 +49,7 @@ bool bfs(vector<pair<int, int>>& a) {
             }
             sort(T.begin(), T.end());// T를 정렬
             string S = "";
-            for (auto [a, b] : T) {// visit 체크  string에 다때려박고 set에 넣는다 
+            for (auto [a, b] : T) {// visit 체크  string에 다때려박고 set에 넣는다 (모든 경우를 체크할 방법이 떠오르지않아서 문자열로 변환하여 set에 넣어 visit 햇습니다
                 S += a;
                 S += b;
             }
