@@ -1,7 +1,40 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
-#define f ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <queue>
+#include <map>
+using namespace std;
+int n,s,ans;
+vector<int>v;
+map<int, int>M;
+void Left(int idx, int sum) {
+	if (idx == n / 2) {
+		M[sum]++;
+		return;
+	}
+
+	Left(idx + 1, sum);
+	Left(idx + 1, sum + v[idx]);
+}
+void Right(int idx, int sum) {
+	if (idx == n) {
+		ans += M[s - sum];
+		return;
+	}
+	Right(idx + 1, sum);
+	Right(idx + 1, sum + v[idx]);
+}
+int main() {
+	cin >> n >> s;
+	v.resize(n);
+	for (int i = 0; i < n; i++)cin >> v[i];
+	Left(0, 0);
+	Right(n / 2, 0);
+}
+
 using namespace std;
 
 int main() {
