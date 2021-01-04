@@ -138,7 +138,31 @@
     <ClCompile Include="11724_연결 요소의 개수.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="17626_four squares.cpp">
+    <ClCompile Include="17626_four squares%28다시풀기%29.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9019_DSLR.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1106_호텔%28미해결%29.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6064_카잉달력.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1043_거짓말.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1238_파티.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629_곱셈%28다시풀기%29.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1254_팰린드롬 만들기.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1865_웜홀.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

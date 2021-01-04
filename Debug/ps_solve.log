@@ -1,2 +1,14 @@
-﻿  17626_four squares.cpp
+﻿  1865_웜홀.cpp
+C:\Users\songbae\source\repos\ps_solve\ps_solve\1865_웜홀.cpp(15,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(4817,24): warning C4244: '=': 'const _Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\songbae\source\repos\ps_solve\ps_solve\1865_웜홀.cpp(30): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::fill<int*,double>(const _FwdIt,const _FwdIt,const _Ty &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _FwdIt=int *,
+              _Ty=double
+          ]
   ps_solve.vcxproj -> C:\Users\songbae\source\repos\ps_solve\Debug\ps_solve.exe

@@ -13,7 +13,6 @@ int dfs(int cur) {
 
 	for (int i = 1; i * i <= cur; ++i)
 		ret = min(ret, dfs(cur - i * i));
-	cout <<cur<<" "<< ret << endl;
 	return ++ret;
 }
 
