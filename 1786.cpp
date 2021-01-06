@@ -5,7 +5,7 @@
 #define MAX 1000001
 using namespace std;
 int fail[MAX];
-vector<int>ans;
+vector<int>dp;
 int main() {
 	string T, P;
 	getline(cin, T);
@@ -20,12 +20,12 @@ int main() {
 		while (j > 0 && T[i] != P[j])j = fail[j - 1];
 		if (T[i] == P[j]) {
 			if (j == p_size - 1) {
-				ans.push_back(i - p_size + 2);
+				dp.push_back(i - p_size + 2);
 				j = fail[j];
 			}
 			else j++;
 		}
 	}
-	cout << ans.size() << endl;
-	for (auto answer : ans)cout << answer << endl;
+	cout << dp.size() << endl;
+	for (auto answer : dp)cout << answer << endl;
 }

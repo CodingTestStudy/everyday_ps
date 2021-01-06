@@ -7,7 +7,7 @@
 #include <queue>
 #include <map>
 using namespace std;
-int n,s,ans;
+int n,s,dp;
 vector<int>v;
 map<int, int>M;
 void Left(int idx, int sum) {
@@ -21,7 +21,7 @@ void Left(int idx, int sum) {
 }
 void Right(int idx, int sum) {
 	if (idx == n) {
-		ans += M[s - sum];
+		dp += M[s - sum];
 		return;
 	}
 	Right(idx + 1, sum);

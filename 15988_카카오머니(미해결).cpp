@@ -5,7 +5,7 @@
 typedef	long long ll;
 using namespace std;
 int n,M;
-vector<ll>ans;
+vector<ll>dp;
 vector<pair<ll, ll>>v;
 
 ll gcd(ll a, ll b) {
@@ -45,8 +45,8 @@ int main() {
 			}
 		}
 	}
-	sort(ans.begin(), ans.end());
-	ll temp = ans[0];
+	sort(dp.begin(), dp.end());
+	ll temp = dp[0];
 	bool ok = false;
 	
 }

@@ -5,7 +5,7 @@
 #include <unordered_map>
 #define f ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 using namespace std;
-long long n,s,ans;
+long long n,s,dp;
 vector<long long>v;
 unordered_map<long long, long long>M;
 void Left(int idx, long long sum) {
@@ -19,7 +19,7 @@ void Left(int idx, long long sum) {
 }
 void Right(int idx, long long sum) {
 	if (idx == n) {
-		ans += M[s - sum];
+		dp += M[s - sum];
 		return;
 	}
 	Right(idx + 1, sum);
@@ -31,6 +31,6 @@ int main() {
 	for (int i = 0; i < n; i++)cin >> v[i];
 	Left(0, 0);
 	Right(n / 2, 0);
-	if (s == 0)ans--;// 아무것도 안고른경우는 안된다.
-	cout << ans;
+	if (s == 0)dp--;// 아무것도 안고른경우는 안된다.
+	cout << dp;
 }

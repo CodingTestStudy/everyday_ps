@@ -4,7 +4,7 @@
 #define INF 99999999
 using namespace std;
 
-int c, n,ans;
+int c, n,dp;
 int dp[2001];
 vector<pair<int, int>>v;
 
