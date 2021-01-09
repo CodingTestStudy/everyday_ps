@@ -195,5 +195,8 @@
     <ClCompile Include="bronze.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="B번.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
