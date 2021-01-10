@@ -195,7 +195,28 @@
     <ClCompile Include="bronze.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="B번.cpp">
+    <ClCompile Include="1797_땅다먹기.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2875_대회or인턴.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IUPC A.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IUPC B.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IUPC C.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IUPC G.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IUPC J.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7490_0만들기.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
